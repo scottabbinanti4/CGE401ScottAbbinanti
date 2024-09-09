@@ -5117,6 +5117,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3fd44838ebb85cd48a77b859e51765f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scoreToWin: 3
   Textbox: {fileID: 427442418}
 --- !u!4 &2048743650
 Transform:
