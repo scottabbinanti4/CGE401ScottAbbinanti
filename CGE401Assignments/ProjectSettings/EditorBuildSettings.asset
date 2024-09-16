@@ -8,7 +8,13 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Assignment 2 Finish.unity
     guid: de8bd9905595b004f8650ce6c81a812f
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Challenge 1 Finish.unity
     guid: 2b1cff3f7d5a13a40a2cd6800f3f1ef5
+  - enabled: 0
+    path: Assets/Scenes/Challenge 2 Finish.unity
+    guid: c6106c711940ac44288a10c1dbb6bd16
+  - enabled: 1
+    path: Assets/Scenes/Assignment 3 Finish.unity
+    guid: b977171cbd39bff49bf383e927d33d16
   m_configObjects: {}
