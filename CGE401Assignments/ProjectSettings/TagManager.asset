@@ -8,6 +8,9 @@ TagManager:
   - ScoreText
   - DisplayScoreText
   - HealthSystem
+  - Dog
+  - Ground
+  - Obstacle
   layers:
   - Default
   - TransparentFX
