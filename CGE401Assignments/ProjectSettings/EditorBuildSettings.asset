@@ -14,7 +14,13 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Challenge 2 Finish.unity
     guid: c6106c711940ac44288a10c1dbb6bd16
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Assignment 3 Finish.unity
     guid: b977171cbd39bff49bf383e927d33d16
+  - enabled: 0
+    path: Assets/Scenes/Assignment 4 Finish.unity
+    guid: cf045a7d27271ba4bb42ceae00ed21b9
+  - enabled: 1
+    path: Assets/Scenes/Challenge 3 Finish.unity
+    guid: bd85c7b2a91f44f498e7d9df60395885
   m_configObjects: {}
