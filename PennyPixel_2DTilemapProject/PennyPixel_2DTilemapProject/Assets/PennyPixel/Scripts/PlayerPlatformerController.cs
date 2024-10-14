@@ -1,4 +1,11 @@
-﻿using System.Collections;
+﻿/*
+ * Scott Abbinanti
+ * PlatformerPlayerController
+ * Assignment5A
+ * Controls platformer player
+ */
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -49,6 +56,7 @@ public class PlayerPlatformerController : PhysicsObject {
 
         animator.SetBool ("grounded", grounded);
         animator.SetFloat ("velocityX", Mathf.Abs (velocity.x) / maxSpeed);
+        animator.SetFloat("velocityY", velocity.y);
 
         targetVelocity = move * maxSpeed;
     }
