@@ -8,6 +8,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
+
 
 public class PlayerPlatformerController : PhysicsObject {
 
@@ -16,6 +19,9 @@ public class PlayerPlatformerController : PhysicsObject {
 
     private SpriteRenderer spriteRenderer;
     private Animator animator;
+
+    
+
 
     // Use this for initialization
     void Awake () 
@@ -60,4 +66,5 @@ public class PlayerPlatformerController : PhysicsObject {
 
         targetVelocity = move * maxSpeed;
     }
+
 }
