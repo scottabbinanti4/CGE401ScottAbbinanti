@@ -26,10 +26,16 @@ public class WinCondition : MonoBehaviour
     {
         if(gameOver == true)
         {
+            winText.SetActive(true);
             if (Input.GetKeyDown(KeyCode.R))
             {
                 SceneManager.LoadScene(SceneManager.GetActiveScene().name);
             }
+        }
+
+        if(GameObject.FindWithTag("Dummy") == null)
+        {
+            gameOver = true;
         }
     }
 
@@ -37,7 +43,7 @@ public class WinCondition : MonoBehaviour
     {
         if (collider.gameObject.CompareTag("Finish"))
         {
-            winText.SetActive(true);
+            
             gameOver = true;
         }
     }

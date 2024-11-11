@@ -1929,7 +1929,7 @@ GameObject:
   - component: {fileID: 113244742}
   m_Layer: 5
   m_Name: Canvas
-  m_TagString: Untagged
+  m_TagString: Dummy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2523,7 +2523,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-114206
+  m_Name: pb_Mesh67862
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -3147,10 +3147,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 248223573}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 39ba1ba45ac107247858c09aadec4b76, type: 3}
+  m_Script: {fileID: 11500000, guid: 8896c328c9b347f43b17cdefcf7d7942, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 50
+  weapon: {fileID: 0}
 --- !u!54 &248223576
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4111,10 +4111,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 385727006}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 39ba1ba45ac107247858c09aadec4b76, type: 3}
+  m_Script: {fileID: 11500000, guid: 8896c328c9b347f43b17cdefcf7d7942, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 50
+  weapon: {fileID: 0}
 --- !u!54 &385727009
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -4729,7 +4729,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-43662
+  m_Name: pb_Mesh67174
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -10511,7 +10511,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh28584
+  m_Name: pb_Mesh67702
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -17898,7 +17898,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-119458
+  m_Name: pb_Mesh57910
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -19574,7 +19574,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-99820
+  m_Name: pb_Mesh67814
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -31622,7 +31622,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &827239676
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31716,10 +31716,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 831012466}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 39ba1ba45ac107247858c09aadec4b76, type: 3}
+  m_Script: {fileID: 11500000, guid: 8896c328c9b347f43b17cdefcf7d7942, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 50
+  weapon: {fileID: 0}
 --- !u!54 &831012469
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -34551,10 +34551,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 971004436}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 39ba1ba45ac107247858c09aadec4b76, type: 3}
+  m_Script: {fileID: 11500000, guid: 8896c328c9b347f43b17cdefcf7d7942, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 50
+  weapon: {fileID: 0}
 --- !u!54 &971004439
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -35946,10 +35946,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1040457668}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 39ba1ba45ac107247858c09aadec4b76, type: 3}
+  m_Script: {fileID: 11500000, guid: 8896c328c9b347f43b17cdefcf7d7942, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 50
+  weapon: {fileID: 0}
 --- !u!54 &1040457671
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -36564,7 +36564,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh25388
+  m_Name: pb_Mesh67142
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -37205,7 +37205,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-101812
+  m_Name: pb_Mesh67490
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -38018,10 +38018,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1109430291}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 39ba1ba45ac107247858c09aadec4b76, type: 3}
+  m_Script: {fileID: 11500000, guid: 8896c328c9b347f43b17cdefcf7d7942, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 50
+  weapon: {fileID: 0}
 --- !u!54 &1109430294
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -41928,10 +41928,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1492179505}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 39ba1ba45ac107247858c09aadec4b76, type: 3}
+  m_Script: {fileID: 11500000, guid: 8896c328c9b347f43b17cdefcf7d7942, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 50
+  weapon: {fileID: 0}
 --- !u!54 &1492179508
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -42749,10 +42749,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1517287887}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 39ba1ba45ac107247858c09aadec4b76, type: 3}
+  m_Script: {fileID: 11500000, guid: 8896c328c9b347f43b17cdefcf7d7942, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 50
+  weapon: {fileID: 0}
 --- !u!54 &1517287890
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -44109,7 +44109,6 @@ GameObject:
   - component: {fileID: 1629643219}
   - component: {fileID: 1629643218}
   - component: {fileID: 1629643216}
-  - component: {fileID: 1629643215}
   - component: {fileID: 1629643217}
   m_Layer: 0
   m_Name: Main Camera
@@ -44118,14 +44117,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &1629643215
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1629643214}
-  m_Enabled: 1
 --- !u!124 &1629643216
 Behaviour:
   m_ObjectHideFlags: 0
@@ -44843,7 +44834,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-62214
+  m_Name: pb_Mesh67732
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -45007,7 +44998,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh26782
+  m_Name: pb_Mesh67436
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -45210,10 +45201,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1690727472}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 39ba1ba45ac107247858c09aadec4b76, type: 3}
+  m_Script: {fileID: 11500000, guid: 8896c328c9b347f43b17cdefcf7d7942, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 50
+  weapon: {fileID: 0}
 --- !u!54 &1690727475
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -46957,7 +46948,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-81992
+  m_Name: pb_Mesh67594
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -47160,10 +47151,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1981546790}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 39ba1ba45ac107247858c09aadec4b76, type: 3}
+  m_Script: {fileID: 11500000, guid: 8896c328c9b347f43b17cdefcf7d7942, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 50
+  weapon: {fileID: 0}
 --- !u!54 &1981546793
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -48896,7 +48887,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-69844
+  m_Name: pb_Mesh67536
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2

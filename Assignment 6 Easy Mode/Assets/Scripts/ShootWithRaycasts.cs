@@ -12,7 +12,7 @@ using UnityEngine;
 public class ShootWithRaycasts : MonoBehaviour
 {
 
-    public float damage = 10f;
+    public int damage = 10;
     public float range = 100f;
     public Camera cam;
     public ParticleSystem muzzleFlash;
@@ -44,13 +44,22 @@ public class ShootWithRaycasts : MonoBehaviour
         {
             Debug.Log(hitInfo.transform.gameObject.name);
 
-            Target target = hitInfo.transform.gameObject.GetComponent<Target>();
+            Dummy dummy = hitInfo.transform.gameObject.GetComponent<Dummy>();
+            Door door = hitInfo.transform.gameObject.GetComponent<Door>();
 
-            if (target != null)
+            if (dummy != null)
             {
-                target.TakeDamage(damage);
+                dummy.TakeDamage(damage);
 
-                if(hitInfo.rigidbody != null)
+                if (hitInfo.rigidbody != null)
+                {
+                    hitInfo.rigidbody.AddForce(cam.transform.TransformDirection(Vector3.forward) * hitForce, ForceMode.Impulse);
+                }
+            }
+            else if (door != null) 
+            {
+                door.TakeDamage(damage);
+                if (hitInfo.rigidbody != null)
                 {
                     hitInfo.rigidbody.AddForce(cam.transform.TransformDirection(Vector3.forward) * hitForce, ForceMode.Impulse);
                 }

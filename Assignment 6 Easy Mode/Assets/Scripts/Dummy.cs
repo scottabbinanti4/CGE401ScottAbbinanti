@@ -1,26 +1,41 @@
-/*
- * Scott Abbinanti
- * Dummy
- * Assignment 6 Easy Mode
- * Dummy Class inheriting from Enemy class
- */
-
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class Dummy : Enemy
 {
+    protected int damage;
+    public int NewHealth;
+
     protected override void Awake()
     {
         base.Awake();
-
-        health = 80;
-        speed = 1f;
+        health = NewHealth;
     }
 
-    protected override void TakeDamage(int amount)
+    protected override void Attack(int amount)
+    {
+
+    }
+
+    public override void TakeDamage(int amount)
     {
         health -= amount;
+        if(health  <= 0)
+        {
+            Destroy(gameObject);
+        }
+    }
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
     }
 }
