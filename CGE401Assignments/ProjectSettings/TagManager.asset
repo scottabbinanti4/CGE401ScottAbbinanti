@@ -4,13 +4,8 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - TriggerZone
-  - ScoreText
-  - DisplayScoreText
-  - HealthSystem
-  - Dog
-  - Ground
-  - Obstacle
+  - FocalPoint
+  - Enemy
   layers:
   - Default
   - TransparentFX
