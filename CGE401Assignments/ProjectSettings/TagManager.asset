@@ -6,6 +6,10 @@ TagManager:
   tags:
   - FocalPoint
   - Enemy
+  - Powerup
+  - Obstacle
+  - TriggerZone
+  - SpawnManager
   layers:
   - Default
   - TransparentFX
