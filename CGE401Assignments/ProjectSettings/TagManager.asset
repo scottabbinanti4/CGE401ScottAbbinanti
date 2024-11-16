@@ -4,11 +4,9 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - FocalPoint
   - Enemy
   - Powerup
-  - Obstacle
-  - TriggerZone
+  - PlayerGoal
   - SpawnManager
   layers:
   - Default
